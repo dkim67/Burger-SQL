@@ -1,0 +1,55 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(208, 208, 7);
+}
+
+#container {
+    text-align: center;
+}
+
+.container-inner {
+    padding: 0 40px 40px 40px;
+    border: 5px solid white;
+    background-color: red;
+    border-radius: 9px;
+    margin: 20px 10px;
+}
+
+.burger {
+    width: 150px;
+    height: 125px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+p.menuItem {
+    height: 55px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.btn,
+input {
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: rgb(40, 164, 5);
+}
+
+#devoured-burgers li {
+    font-size: 20px;
+}
+
+.clear {
+    clear: both;
+}
