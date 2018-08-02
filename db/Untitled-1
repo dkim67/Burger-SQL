@@ -1,0 +1,10 @@
+M: Model = represents data in our DB
+    - connection info
+    - model files (Cat.js)
+
+V: View = client side concerns: HTML, CSS, templating, frontend JS 
+    - public folder for static assets
+    - handlebars templates
+
+C: Controllers = manage interactions between client and models
+    - routes

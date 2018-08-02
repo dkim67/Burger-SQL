@@ -5,8 +5,8 @@
           {{#unless devoured}}
           <div class="burger">
             <p class="menuItem"> {{burger}} </p>
-              <form id="burgerButton" action="burgers/update/devour/{{id}}?_method=PUT" method="POST">
-                <button class="btn btn-primary" type="submit">Eat Burger</button>
+              {{!-- <form id="burgerButton" action="/burgers/update/devour/{{this.id}}?_method=PUT" method="POST"> --}}
+                <button class="btn btn-primary eat-burger" data-id="{{this.id}}" type="submit">Eat Burger</button>
               </form>
           </div>
 
